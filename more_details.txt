@@ -1,0 +1,3 @@
+The discriminator == Patchgan over 70 X70
+Genrator == Unet with 3 dropouts right at the begining of the encoder!! 
+ 
