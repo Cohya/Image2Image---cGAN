@@ -5,9 +5,9 @@ the original data can be found here: https://www.kaggle.com/datasets/vikramtiwar
 
 The project implementing the article example of edges --> shoes example based on Tensorflow library.
 
-From Train set:
+##From Train set:<br>
 <img src="samples/train/samples_at_iter_98.png" width="400" height="350">
 
 
-From Test set:
+##From Test set:<br>
 <img src="samples/test/samples_at_iter_97.png" width="400" height="350">
