@@ -65,7 +65,7 @@ class ConvLayer(object):
                                             name = "running_mean_%s" % name,
                                             trainable = False) # Trainable = False [dim_output_x,dim_output_y, mo]
         
-        self.running_var = tf.Variable(initial_value = tf.zeros(shape = [dim_output_x,dim_output_y, mo]) ,
+        self.running_var = tf.Variable(initial_value = tf.ones(shape = [dim_output_x,dim_output_y, mo]) ,
                                        name = "running_var_%s" % name,
                                        trainable = False) # trainable = False [dim_output_x,dim_output_y, mo]
         
@@ -178,7 +178,7 @@ class FractionallyStrideConvLayer(object):
                                             name = "running_mean_%s" % name,
                                             trainable = False) # Trainable = False
         
-        self.running_var = tf.Variable(initial_value = tf.zeros(shape = output_shpae[1:]) ,
+        self.running_var = tf.Variable(initial_value = tf.ones(shape = output_shpae[1:]) ,
                                        name = "running_var_%s" % name, 
                                        trainable = False) # trainable = False        
         
@@ -281,7 +281,7 @@ class DenseLayer(object):
                                             name = "running_mean_%s" % name,
                                             trainable = False) # Trainable = False
         
-        self.running_var = tf.Variable(initial_value = tf.zeros(shape = [M2,]) ,
+        self.running_var = tf.Variable(initial_value = tf.ones(shape = [M2,]) ,
                                        name = "running_var_%s" % name, 
                                        trainable = False) # trainable = False  
         
