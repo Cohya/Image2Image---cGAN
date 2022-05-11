@@ -3,7 +3,7 @@ This project is based on the following article:
 
 the original data can be found here: https://www.kaggle.com/datasets/vikramtiwari/pix2pix-dataset
 
-The project implementing the article example of edges --> shoes example based on Tensorflow library.
+The project implementing the article example of edges --> shoes example based on Tensorflow library (V2).
 ## cost Vs. Iteration
 <img src="cost_vs_iteration.png" width="400" height="350">
 
